@@ -9,7 +9,17 @@ $( document ).ready(function() {
 //Task 3: Have the words "Rolling in the Deep" appear on the HTML page in a div tag.    
     $("#a").append(library.music.twenty_tens.Adele[0].song);
 //Task 4: (project) Create a site that can display songs from an artist specified by a user search.
-// $(button).click(function(){
-    var name = $("#input").val();
-
+$("#zhoumi").click(function(){
+  // asked countries?
+  var w = $("input").val();
+  // alert(w); 
+  var Capital= library[w]
+  $("#a").html( "song"
+  + library[w]["song"]
+   +"<br/>"+"year"+ library[w]["year"]
+  
+  );
+  // from list
+  // display            
+});
 // });
